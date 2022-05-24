@@ -17,6 +17,18 @@ pyserial V3.5 (latest at the time)
 
 numpy V1.22.3 (latest at the time)
 
+-----
+indicating framerate:
+
+argument #5 of the CLI command "frameCfg"
+
+•18Hz is 1/18 is 0.055555556s or 55ms
+frameCfg 0 1 16 0 55.556 1 0
+
+•8Hz is 1/8 is 0.125s or 125ms
+frameCfg 0 1 16 0 125 1 0
+------
+
 T+T wave radar project (mmwave AWR1443BOOST)
 --------------------------------------------
 
@@ -35,11 +47,9 @@ mmWave_Demo_Visualizer_2.1.0 (working config, check screenshots)
 
 Unofficial matlab codes (name of online repos)
 ----------------------------------------------
-•F:\Dropbox\54_WaveRadarT&T\04_MatlabCode\MatlabRawADC (RawADC)
-•F:\Dropbox\54_WaveRadarT&T\04_MatlabCode\MatlabReadDat\mmWave_reading-master\mmWave_reading-master (read and parse .dat files)
-
-
-F:\Dropbox\54_WaveRadarT&T\02_ibaiGorordo\AWR1843-Read-Data-Python-MMWAVE-SDK-3--master\matlab code
+• F:\Dropbox\54_WaveRadarT&T\04_MatlabCode\MatlabRawADC (RawADC)
+• F:\Dropbox\54_WaveRadarT&T\04_MatlabCode\MatlabReadDat\mmWave_reading-master\mmWave_reading-master (read and parse .dat files)
+• F:\Dropbox\54_WaveRadarT&T\02_ibaiGorordo\AWR1843-Read-Data-Python-MMWAVE-SDK-3--master\matlab code
 
 Kickstarter (RadarIQ)
 ----------------------
