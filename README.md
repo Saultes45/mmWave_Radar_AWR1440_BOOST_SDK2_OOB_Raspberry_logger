@@ -3,6 +3,9 @@
 # mmWave_Radar_AWR1440_BOOST_SDK2_OOB_Raspberry_logger
 A repository regrouping the code and knowledge necessary for the wave height detection project in partenership with T+T .
 
+
+sudo mount /dev/sda1 /mnt/usb
+
 *Keywords:* 
 
  - mmWave
