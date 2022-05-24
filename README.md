@@ -1,6 +1,8 @@
 # mmWave_Radar_AWR1440_BOOST_SDK2_OOB_Raspberry_logger
 A repository for a project with T+T for measuring waves profile using a TI mmWave radar
 
+This markdown file has been gererated via StackEdit: https://stackedit.io/
+
 --------------------------------------------
 Based on ibaiGorordo's code (on github):
 
