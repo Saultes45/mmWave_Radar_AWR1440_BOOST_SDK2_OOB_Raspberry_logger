@@ -1,6 +1,19 @@
 # mmWave_Radar_AWR1440_BOOST_SDK2_OOB_Raspberry_logger
 A repository for a project with T+T for measuring waves profile using a TI mmWave radar
 
+--------------------------------------------
+Based on ibaiGorordo's code (on github):
+
+AWR1642-Read-Data-Python-MMWAVE-SDK-2
+
+--------------------------------------------
+Python interpreter: 3.7.X (Home desktop win7 x64) or 3.7.3 (Uni PGR desktop)
+
+You also need to install the following libraries (pip if IDLE or if PyC Toolbar->File->Setting-> Project interpreter)
+
+pyserial V3.5 (latest at the time)
+
+numpy V1.22.3 (latest at the time)
 
 T+T wave radar project (mmwave AWR1443BOOST)
 --------------------------------------------
