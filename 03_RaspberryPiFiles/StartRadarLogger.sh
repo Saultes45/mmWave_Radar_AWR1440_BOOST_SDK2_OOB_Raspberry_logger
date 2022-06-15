@@ -56,7 +56,11 @@ fi
 #minicom -D /dev/ttyACM1 -b 921600
 
 
-
+python3  /home/pi/Hello.py 
+cd "/home/pi/Desktop/54_WaveRadarT&T/01_FinalCode"
 #python3  "/home/pi/Desktop/54_WaveRadarT&T/01_FinalCode/TestConfigParser.py" >> /home/pi/Desktop/RadarLogs/console.log
-python3  /home/pi/Hello.py >> /home/pi/Desktop/RadarLogs/console.log
+python3  "/home/pi/Desktop/54_WaveRadarT&T/01_FinalCode/logRadar.py" 2>&1 | tee /home/pi/Desktop/RadarLogs/console.log
+
+#python3  /home/pi/Hello.py >> /home/pi/Desktop/RadarLogs/console.log
+#python3  /home/pi/Hello.py  2>&1 | tee info.log
 

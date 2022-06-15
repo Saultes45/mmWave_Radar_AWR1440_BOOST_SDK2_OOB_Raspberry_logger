@@ -1,0 +1,9 @@
+
+# Step 1 - Only run the script if the enable file is present
+#-----------------------------------------------------------
+file="/home/pi/Desktop/enablesuperscript"
+
+if [ -f $file ] ; then
+    /home/pi/StartRadarLogger.sh
+fi
+
