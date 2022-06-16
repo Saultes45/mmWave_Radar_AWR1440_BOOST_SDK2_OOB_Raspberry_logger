@@ -1,0 +1,84 @@
+
+T+T Raspberry Pi 4 Model B & 32GB SD card (with bootloader? Berryboot? Noobs?)
+
+
+Necessary commands
+-------------------
+py -3 --version
+pip3 --version
+py -3 -m pip install --upgrade pip
+pip3 show <name>
+pip3 install <name> -U
+pip3 list
+pip3 install pyserial
+pipthree install <PACKAGE>==<VERSION>
+
+
+# Python interpreter: 3.7.4 (Home desktop win7 x64) or 3.7.3 (Uni PGR desktop)
+#
+# You also need to install the following libraries (pip if IDLE or if PyC Toolbar->File->Setting-> Project interpreter)
+# --> configparser VX.X
+# --> pyserial V3.5
+# --> logging? VX.X
+
+
+pip3 version?
+added C:\Program Files (x86)\Python37-32\Scripts to env variables
+default: pip 19.0.3 from c:\program files (x86)\python37-32\lib\site-packages\pip (python 3.7)
+
+On the Uni PGR desktop
+as elevated privilege CMD
+•py -3 -m pip install --upgrade pip
+now 22.0.4
+
+
+on my personal developpement desktop
+--------------------------------------
+pip 21.3 from c:\users\nathan\appdata\local\programs\python\python37\lib\site-packages\pip (python 3.7)
+Upgrade
+pip 22.0.4 from C:\Users\Nathan\AppData\Local\Programs\Python\Python37\lib\site-packages\pip (python 3.7)
+
+pyserial 3.5
+
+setuptool version 48.8.0
+Upgrade
+Successfully installed setuptools-62.1.0
+
+
+
+
+
+This is shit
+pip freeze | %{$_.split('==')[0]} | %{pip install --upgrade $_}
+
+and the following libraries are needed:
+
+
+•pip3 install pyserial
+
+maybe numpy?? (pip install numpy)
+
+pyserial(3.5)
+setuptools (40.8.0->62.1.0)
+pip (22.0.4)
+
+# --> numpy V1.22.3 (latest at the time) (for uni desktop: 1.21.6 max at the time)
+
+Upgrade a module
+pip install <name> -U
+
+
+
+
+-import configparser ## for reading the logger data stored in the Parameters.ini file
+-import os           ## for managing files and directories
+-import subprocess   ## for checking the USB drive is present on the RPi
+-import platform     ## for checking the platform (Win7 or raspberry pi)
+import serial       ## to communicate with the TI radar AWR1443BOSST
+
+-import glob         ## for Linux platform only: list available serial ports
+-import time         ## to slow down the data sent via serial
+
+
+On windows: 
+https://stackoverflow.com/questions/39910730/python3-is-not-recognized-as-an-internal-or-external-command-operable-program
