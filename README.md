@@ -4,8 +4,6 @@
 A repository regrouping the code and knowledge necessary for the wave height detection project in partenership with [T+T](https://www.tonkintaylor.co.nz/) .
 
 
-sudo mount /dev/sda1 /mnt/usb
-
 *Keywords:* 
 
  - mmWave
@@ -16,7 +14,6 @@ sudo mount /dev/sda1 /mnt/usb
  - datalogger (Raspberry pi)
  - Python 3.X
 
-This markdown file has been gererated via StackEdit: https://stackedit.io/
 
 ## Hardware: 
 ### Radar:
